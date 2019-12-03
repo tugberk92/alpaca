@@ -5,20 +5,20 @@
 ****************************************************************************************
 400d0        ! [ebeam] : Beam kinetic energy (GeV)
 'prot'      ! [btype] : Beam type ('prot' = proton, 'elec' = electron)
-63.5d0      ! [aa] : Target mass number
-29d0        ! [az] : Target atomic number
-81.93d0     ! [lsh] : Shielding length (m)
-136.5d0     ! [dvol] : Decay volume (m)
+95.95d0      ! [aa] : Target mass number
+42d0        ! [az] : Target atomic number
+45d0     ! [lsh] : Shielding length (m)
+60.0d0     ! [dvol] : Decay volume (m)
 0.15d0      ! [rmin] : Inner radius (m)
-1.13d0      ! [rmax] : Outer radius (m)
+2.5d0      ! [rmax] : Outer radius (m)
 0.1d0       ! [dmin] : Minimum photon separation (m)
-3d0         ! [emin] : Minimum photon energy (GeV)
+1d0         ! [emin] : Minimum photon energy (GeV)
 1d-2        ! [athetamax] : Maximum ALP theta (when adecay is false)
 ****************************************************************************************
 ********************************** ALP parameters **************************************
 ****************************************************************************************
-5d-2        ! [mres] : ALP mass (GeV)
-1d-4        ! [gax] : ALP photon coupling (GeV^-1)
+1.0d0        ! [mres] : ALP mass (GeV)
+1d-7        ! [gax] : ALP photon coupling (GeV^-1)
 ****************************************************************************************
 ******************************  Output parameters **************************************
 ****************************************************************************************
@@ -38,10 +38,10 @@
 ****************************************************************************************
 .true.     ! [genunw] : Generate unweighted events
 100         ! [nev] : Number of events ( < 1000000 recommended)
-'hepevt'	    ! [erec] : Event record format ('lhe' = Les Houches, 'hepevt' = HEPEVT)
+'hepevt'     ! [erec] : Event record format ('lhe' = Les Houches, 'hepevt' = HEPEVT)
 ****************************************************************************************
 *******************************  Cuts   ************************************************
-.false.      ! [gencuts] : Generate cuts - [rmin], [rmax], [dmin], [emin]
+.true.      ! [gencuts] : Generate cuts - [rmin], [rmax], [dmin], [emin]
 .true.     ! [adecay] : Include ALP decay
 ****************************************************************************************
 ****************************************************************************************
