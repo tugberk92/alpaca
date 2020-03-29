@@ -1,9 +1,12 @@
 # alpaca
-To compile simply run
+To compile  run
+> mkdir bin
+> mkdir bin/evrecs
+> mkdir bin/outputs
 > make
 
 which will create the alpaca executable in the bin directory as well as the object files in the obj directory.
 
-After compilation, the alpaca executable can then be run in the bin directory, using the input.DAT file to adjust the input parameters by
-
-> ./alpaca < input.DAT
+After compilation,
+> python -i FairShip/python/makeAlPACAEvents.py
+> main()
