@@ -12,4 +12,5 @@ which will create the alpaca executable in the bin directory as well as the obje
 
 After compilation,
 > python -i FairShip/python/makeAlPACAEvents.py
+
 > main()
