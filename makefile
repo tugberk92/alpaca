@@ -8,7 +8,7 @@ INCPATH = $(SOURCEDIR)/inc
 
 OBJ_PATH = $(PWD)/obj/
 
-FFLAGS 	= -fno-automatic -fno-f2c -O2 -g  -I$(INCPATH)
+FFLAGS 	= -std=legacy -fno-automatic -fno-f2c -O2 -g  -I$(INCPATH)
 
 DIRS	 =	$(SOURCEDIR)/int:\
 		$(SOURCEDIR)/main:\
